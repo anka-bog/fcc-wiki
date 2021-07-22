@@ -23,8 +23,22 @@ nav {
   width: 20%;
 }
 
+code {
+  background-color: #d1d1e0;
+  margin-left: 2.5em;
+  display: block;
+  white-space: pre-wrap;
+  font-size: 1.2em;
+  line-height: 200%;
+  border-radius: 1em;
+}
+
 h1 {
   padding: 2em;
+}
+
+p, ul {
+  line-height: 150%;
 }
 
 a {
@@ -51,4 +65,22 @@ a:visited {
 
 #first-link {
   border-top: solid #8585ad 1px;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    margin-left: -10px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    min-width: 233px;
+  }
 }
