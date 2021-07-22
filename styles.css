@@ -1,2 +1,54 @@
 /*one media quesry should be*/
-/*desktop, laptops - menu should be on the left, always visible>
+/*desktop, laptops - menu should be on the left, always visible>*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #f2f2f2;
+  font-family: Lato;
+}
+
+main {
+  width: 80%;
+  padding: 2.5em;
+  border-left: solid 2px black;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+h1 {
+  padding: 2em;
+}
+
+a {
+  padding: 2em 0 2em 0;
+  color: #33334d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8585ad;
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+  color: #33334d;
+}
+
+.nav-link {
+  padding: 2em;
+  border-bottom: solid #8585ad 1px;
+}
+
+#first-link {
+  border-top: solid #8585ad 1px;
+}
